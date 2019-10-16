@@ -49,6 +49,33 @@ node *insertBefore(node *hade, int search, int data)
     }
 }
 
+node *insertAfter(node *hade, int search , int data)
+{
+    while(hade->next != NULL)
+    {
+        if(hade->next->data == search)
+        {
+            node *temp = hade->next->next;
+            hade->next->next = (node*)malloc(sizeof(node));
+            hade->next->next->data = data;
+            hade->next->next->next = temp;
+        }
+        hade = hade->next;
+    }
+}
+
+node *replaceData (node *hade, int search ,int data)
+{
+    while (hade->next != NULL)
+    {
+        if (hade->next->data == search)
+        {
+            hade->next->data = data;
+        }
+        hade = hade->next;
+    }
+}
+
 node *deletefast(node *hade)
 {
     node *temp = hade->next;
@@ -152,10 +179,10 @@ void main()
     insert(one,1);
     insert(one,9);
     insert(one,3);
+    replaceData(one,1,55);
     deletelast(one);
-    deletePosition(one,2);
+    deletePosition(one,0);
     display(one);
     countNode(one);
     searchNode(one,3);
 }
-///Full Code Writen By Nabil Newaz
