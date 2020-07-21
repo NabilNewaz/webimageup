@@ -39,7 +39,7 @@ https://itpolly.iptv.digijadoo.net/live/channel_24/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://www.channelionline.com/wp-content/uploads/2019/07/channel-i-logo-1.png" group-title="Deshi Channel",Channel I
 https://itpolly.iptv.digijadoo.net/live/channel_i/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://dbcnews.tv/img/dbc.png" group-title="Deshi Channel",DBC News
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="Deshi Channel",DBC News
 https://itpolly.iptv.digijadoo.net/live/dbc_news/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.deepto.tv/img/toplogo.png" group-title="Deshi Channel",Deepto TV
