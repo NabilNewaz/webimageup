@@ -11,12 +11,6 @@ http://103.55.144.46/hls/Gazi-TV.m3u8
 http://103.55.144.46/hls/indepen.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/nexus.jpg" group-title="Bangladeshi", Nexus
 http://103.55.144.46/hls/nexus.m3u8
-#EXTINF: -1 tvg-logo="" group-title="Live Event", BPL
-https://prod-ec-ap-south-1.video.pscp.tv/Transcoding/v1/hls/TfvTyjmhf4XJ2cRtzqq7rOxc3Mv11zafHTDckGpFZ6_UR9AQPfTBHyASOl0h2r7oR9w_IrFUDFgMvrJg5FM5pw/non_transcode/us-west-2/periscope-replay-direct-live/master_dynamic_highlatency.m3u8?type=live
-#EXTINF: -1 tvg-logo="" group-title="Live Event", G TV
-http://nayeemparvez01.redirectme.net:1935/live/event360.stream/chunklist_w1527816898.m3u8
-#EXTINF: -1 tvg-logo="" group-title="Live Event", TSports
-http://103.102.27.172:6464/Channel-2/tracks-v1a1/mono.m3u8
 
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/starjalsha.jpg" group-title="Indian Bangla", Star Jalsha
 http://103.55.144.46/hls/starjalsha.m3u8
@@ -39,8 +33,6 @@ http://103.55.144.46/hls/sunbangla.m3u8
 http://103.55.144.46/hls/starplus.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/sonyen.png" group-title="Hindi", Sony TV
 http://103.55.144.46/hls/sonyen.m3u8
-#EXTINF: -1 tvg-logo="http://103.55.144.46/img/sonymax.png" group-title="Hindi", Sony Max
-http://103.55.144.46/hls/sonymax.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/sony-maxhd.jpg" group-title="Hindi", Sony Max HD
 http://103.55.144.46/hls/sony-maxhd.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/zeetv.png" group-title="Hindi", Zee TV
@@ -63,6 +55,8 @@ http://103.55.144.46/hls/andpictures.m3u8
 http://103.55.144.46/hls/zoom.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/bindass.jpeg" group-title="Hindi", Bindass
 http://103.55.144.46/hls/bindass.m3u8
+#EXTINF: -1 tvg-logo="http://103.55.144.46/img/dhin.jpg" group-title="Hindi", Dhinchaak
+http://103.55.144.46/hls/dhin.m3u8
 
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/dis.png" group-title="Documentary", Discovery
 http://103.55.144.46/hls/discovery.m3u8
@@ -72,7 +66,7 @@ http://103.55.144.46/hls/ngohd.m3u8
 http://103.55.144.46/hls/animalplanent.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/wild.png" group-title="Documentary", National Wild
 http://103.55.144.46/hls/wild.m3u8
-#EXTINF: -1 tvg-logo="http://103.55.144.46/img/bbcearth.jpg" group-title="Documentary", Zee TV
+#EXTINF: -1 tvg-logo="http://103.55.144.46/img/bbcearth.jpg" group-title="Documentary", BBC Earth
 http://103.55.144.46/hls/bbcearth.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/travelxphd.jpg" group-title="Documentary", Travel XP
 http://103.55.144.46/hls/travelxp.m3u8
@@ -101,6 +95,10 @@ http://103.55.144.46/hls/Star_Sport_Select1HD.m3u8
 http://103.55.144.46/hls/select2.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/euro.jpg" group-title="Sports", Euro Sports
 http://103.55.144.46/hls/euro.m3u8
+#EXTINF: -1 tvg-logo="http://103.55.144.46/img/ten_sports.jpg" group-title="Sports", Ten Sports
+http://103.55.144.46/hls/ten.m3u8
+#EXTINF: -1 tvg-logo="http://103.55.144.46/img/ptv.jpg" group-title="Sports", PTV Sports HD 
+http://103.55.144.46/hls/ptv.m3u8
 
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/sonypixhd.jpg" group-title="Movies", Sony Pix HD
 http://103.55.144.46/hls/sonypixhd.m3u8
@@ -116,9 +114,9 @@ http://103.55.144.46/hls/star-worldhd.m3u8
 http://103.55.144.46/hls/mnx-hd.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="BBC World (BDIX)" tvg-logo="http://103.55.144.46/img/bbcworld.jpg" group-title="World News",BBC World
+#EXTINF:-1 tvg-logo="http://103.55.144.46/img/bbcworld.jpg" group-title="World News",BBC World
 http://103.55.144.46/hls/bbcworld.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Aljazeera (BDIX)" tvg-logo="http://103.55.144.46/img/aljazeera.jpg" group-title="World News",Aljazeera
+#EXTINF:-1 tvg-logo="http://103.55.144.46/img/aljazeera.jpg" group-title="World News",Aljazeera
 http://103.55.144.46/hls/aljazeera.m3u8
 
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/dis-kid.png" group-title="Cartoon", Discovery Kids
