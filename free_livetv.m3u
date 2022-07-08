@@ -57,6 +57,8 @@ http://103.55.144.46/hls/zoom.m3u8
 http://103.55.144.46/hls/bindass.m3u8
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/dhin.jpg" group-title="Hindi", Dhinchaak
 http://103.55.144.46/hls/dhin.m3u8
+#EXTINF: -1 tvg-logo="http://103.55.144.46/img/9xm.png" group-title="Hindi", 9XM
+http://103.55.144.46/hls/9xm.m3u8
 
 #EXTINF: -1 tvg-logo="http://103.55.144.46/img/dis.png" group-title="Documentary", Discovery
 http://103.55.144.46/hls/discovery.m3u8
